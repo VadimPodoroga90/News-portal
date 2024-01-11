@@ -10,7 +10,7 @@
 
 * HTML
 
-* CSS 
+* CSS(bootstrap) 
 
 ## Как открыть/запустить
 
