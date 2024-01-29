@@ -8,12 +8,19 @@ header {
     position: sticky;
     top: -225px;
     height: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     background-image: url(../image/baner.jpg);
     background-size: cover;
-    box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.5);
+    -webkit-box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.5);
+            box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.5);
 }
 
 h1 {
@@ -24,7 +31,8 @@ h1 {
     width: 80%;
     padding: 10px;
     text-align: center;
-    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+            backdrop-filter: blur(3px);
     text-shadow: 10px 10px 5px rgb(0, 0, 0, 0.6);
 }
 
@@ -52,7 +60,8 @@ article {
     padding: 10px;
     border-radius: 10px;
     background-color: rgba(96, 201, 70, 0.3);
-    box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.5);
+    -webkit-box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.5);
+            box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.5);
 }
 
 article h2 {
@@ -68,7 +77,8 @@ article h2 {
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
     margin-left: 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -90,12 +100,17 @@ article a {
 article img {
     width: 100%;
     max-width: 800px;
-    transition-duration: 0.8s;
+    -webkit-transition-duration: 0.8s;
+         -o-transition-duration: 0.8s;
+            transition-duration: 0.8s;
 }
 
 article img:hover {
-    transform: scale(1.1, 1.1);
-    box-shadow: 5px 5px 25px rgb(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1, 1.1);
+        -ms-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
+    -webkit-box-shadow: 5px 5px 25px rgb(0, 0, 0, 0.5);
+            box-shadow: 5px 5px 25px rgb(0, 0, 0, 0.5);
 }
 
 .img-news5 {
